@@ -1,0 +1,38 @@
+{
+  "name": "@vincvn/b-aes-256",
+  "version": "0.0.1",
+  "description": "AES-256-CBC HELPER",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "publish": "npm publish --access public"
+  },
+  "keywords": [
+    "aes",
+    "aes-256",
+    "aes-256-cbc"
+  ],
+  "author": "Vincent Hoang",
+  "license": "MIT",
+  "dependencies": {
+    "@vincvn/bp-helper": "^0.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {},
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components",
+      "src"
+    ],
+    "globals": {}
+  }
+}
